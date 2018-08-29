@@ -16,6 +16,15 @@
 .dropdown-toggle{
 	margin-right:50px;
 }
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+.jumbotron{
+	height:500px;
+	background-image:url('/resources/img/main/jumbotron.JPG');
+	background-size:cover;
+	background-repeat:no-repeat;
+}	
 </style>
 <title>KBO Main</title>
 </head>
@@ -83,25 +92,25 @@
 					</div>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle text-dark" href="#" id="dropdown1" data-toggle="dropdown"><strong>NEWS</strong></a>
+					<a class="nav-link dropdown-toggle text-dark" href="#" id="dropdown5" data-toggle="dropdown"><strong>NEWS</strong></a>
 					<div class="dropdown-menu">
 						<a class="dropdown-item" href="#">게임센터</a>
 					</div>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle text-dark" href="#" id="dropdown1" data-toggle="dropdown"><strong>KBO</strong></a>
+					<a class="nav-link dropdown-toggle text-dark" href="#" id="dropdown6" data-toggle="dropdown"><strong>KBO</strong></a>
 					<div class="dropdown-menu">
 						<a class="dropdown-item" href="#">게임센터</a>
 					</div>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle text-dark" href="#" id="dropdown1" data-toggle="dropdown"><strong>퓨처스리그</strong></a>
+					<a class="nav-link dropdown-toggle text-dark" href="#" id="dropdown7" data-toggle="dropdown"><strong>퓨처스리그</strong></a>
 					<div class="dropdown-menu">
 						<a class="dropdown-item" href="#">게임센터</a>
 					</div>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle text-dark" href="#" id="dropdown1" data-toggle="dropdown"><strong>KBO마켓</strong></a>
+					<a class="nav-link dropdown-toggle text-dark" href="#" id="dropdown8" data-toggle="dropdown"><strong>KBO마켓</strong></a>
 					<div class="dropdown-menu">
 						<a class="dropdown-item" href="#">게임센터</a>
 					</div>
@@ -109,6 +118,9 @@
 			</ul>
 		</div>
 	</nav>
+	<div class="jumbotron jumbotron-fulid">
+		
+	</div>
 	<!-- sub navbar end -->
 </div>
 </body>
