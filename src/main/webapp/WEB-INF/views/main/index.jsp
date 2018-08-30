@@ -24,7 +24,13 @@
 	background-image:url('/resources/img/main/jumbotron.JPG');
 	background-size:cover;
 	background-repeat:no-repeat;
-}	
+}
+.jumbotron >.container-fulid >.row{
+	margin-top:300px;
+}
+small{
+	color:black;
+}
 </style>
 <title>KBO Main</title>
 </head>
@@ -71,30 +77,47 @@
 					<a class="nav-link dropdown-toggle text-dark" href="#" id="dropdown1" data-toggle="dropdown"><strong>일정/결과</strong></a>
 					<div class="dropdown-menu">
 						<a class="dropdown-item" href="#">게임센터</a>
+						<a class="dropdown-item" href="#">스코어보드</a>
+						<a class="dropdown-item" href="#">경기일정</a>
+						<a class="dropdown-item" href="#">월별일정</a>
+						<a class="dropdown-item" href="#">국제대회</a>
+						<a class="dropdown-item" href="#">KBO올스타전</a>
 					</div>
 				</li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle text-dark" href="#" id="dropdown2" data-toggle="dropdown"><strong>순위</strong></a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="#">게임센터</a>
+						<a class="dropdown-item" href="#">팀순위</a>
+						<a class="dropdown-item" href="#">팀별 순위변동 그래프</a>
 					</div>
 				</li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle text-dark" href="#" id="dropdown3" data-toggle="dropdown"><strong>기록</strong></a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="#">게임센터</a>
+						<a class="dropdown-item" href="#">TOP5</a>
+						<a class="dropdown-item" href="#">주간/월간랭킹</a>
+						<a class="dropdown-item" href="#">기록실</a>
+						<a class="dropdown-item" href="#">타자  VS 투수</a>
+						<a class="dropdown-item" href="#">역대기록실</a>
+						<a class="dropdown-item" href="#">주간/일간 예상 달성기록</a>
 					</div>
 				</li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle text-dark" href="#" id="dropdown4" data-toggle="dropdown"><strong>선수</strong></a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="#">게임센터</a>
+						<a class="dropdown-item" href="#">선수조회</a>
+						<a class="dropdown-item" href="#">선수등록현황</a>
+						<a class="dropdown-item" href="#">전체등록현황</a>
+						<a class="dropdown-item" href="#">경력증명서 신청</a>
+						<a class="dropdown-item" href="#">선수이동 현황</a>
 					</div>
 				</li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle text-dark" href="#" id="dropdown5" data-toggle="dropdown"><strong>NEWS</strong></a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="#">게임센터</a>
+						<a class="dropdown-item" href="#">NEWS</a>
+						<a class="dropdown-item" href="#">KBO보도자료</a>
+						<a class="dropdown-item" href="#">케이봇 기사</a>	
 					</div>
 				</li>
 				<li class="nav-item dropdown">
@@ -103,25 +126,58 @@
 						<a class="dropdown-item" href="#">게임센터</a>
 					</div>
 				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle text-dark" href="#" id="dropdown7" data-toggle="dropdown"><strong>퓨처스리그</strong></a>
-					<div class="dropdown-menu">
-						<a class="dropdown-item" href="#">게임센터</a>
-					</div>
+				<li class="nav-item">
+					<a class="nav-link text-info" href="#" style="margin-right:50px;"><strong>퓨처스리그</strong></a>
 				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle text-dark" href="#" id="dropdown8" data-toggle="dropdown"><strong>KBO마켓</strong></a>
-					<div class="dropdown-menu">
-						<a class="dropdown-item" href="#">게임센터</a>
-					</div>
+				<li class="nav-item">
+					<a class="nav-link text-warning" href="#"><strong>KBO마켓</strong></a>
 				</li>
 			</ul>
 		</div>
 	</nav>
-	<div class="jumbotron jumbotron-fulid">
-		
-	</div>
 	<!-- sub navbar end -->
+	<!-- jumbotron start -->
+	<div class="jumbotron jumbotron-fulid">
+		<div class="container-fulid">
+			<div class="row">
+				<div class="col-md-4" align="center">
+					<a href="#"><img src="/resources/img/main/banner/banner1.png"></a>
+				</div>
+				<div class="col-md-4" align="center">
+					<a href="#"><img src="/resources/img/main/banner/banner2.png"></a>
+				</div>
+				<div class="col-md-4" align="center">
+					<a><img src="/resources/img/main/banner/banner3.jpg"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- main body start -->
+	<div class="container">
+		<div class="row">
+			<div class="col-3"></div>
+			<div class="col-6">
+				<div class="row">
+					<div class="col-sm-4" align="center">
+						<a href="#"><small><strong>KBO정규시즌</strong></small></a>
+					</div>
+					<div class="col-sm-4" align="center">
+						<a href="#"><small><strong>KBO퓨처스리그</strong></small></a>
+					</div>
+					<div class="col-sm-4" align="center">
+						<a href="#"><small><strong>KBO올스타전</strong></small></a>
+					</div>
+					</div>
+				</div>	
+			<div class="col-3">
+				<img src="/resources/img/main/banner/banner4.jpg">
+			</div>	
+		</div>
+		<div class="container-fulid">
+			
+		</div>
+	</div>
+	<!-- main body end -->
 </div>
 </body>
 </html>
